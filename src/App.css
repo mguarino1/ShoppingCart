@@ -1,0 +1,74 @@
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(199, 241, 255);
+  position: absolute;
+}
+
+.inventoryList {
+  height: 70%;
+  width: 20%;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 1em;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.shoppingCart {
+  height: 70%;
+  width: 30%;
+  background-color: white;
+  border: solid 1px black;
+  border-radius: 1em;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  width: 100%;
+  border-bottom: solid 1px black;
+  overflow-y: scroll;
+}
+
+.totalPrice {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+  width: 100%;
+}
+
+.inventoryItem {
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  width: 100%;
+  border-bottom: solid 1px black;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  border-bottom: solid 1px black;
+}
+
+.cartItem button {
+  font-size: 30px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+
